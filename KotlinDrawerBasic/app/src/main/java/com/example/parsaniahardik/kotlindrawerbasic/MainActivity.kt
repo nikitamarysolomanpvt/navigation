@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() ,FragmentTransactions{
 
             else -> {
             }
-        } }
+        }
+     }
     fun removeAllFragment(replaceFragment: Fragment, tag: String) {
         val manager = supportFragmentManager
         val ft = manager.beginTransaction()
